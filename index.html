@@ -3,124 +3,240 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="MWAS BEAUTY PARLOUR - beauty, nails, cosmetics and barber services in Nakuru.">
-  <title>MWAS BEAUTY PARLOUR | Nakuru</title>
+  <meta name="description" content="MWAS Beauty Parlour Nakuru - nails, beauty, cosmetics, personal care and barbering services.">
+  <title>MWAS Beauty Parlour | Nakuru</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>✨ Welcome to MWAS Beauty Parlour</span>
+      <div class="top-links">
+        <a href="tel:+254700859216">☎ 0700 859216</a>
+        <a href="https://wa.me/254700859216?text=Hello%20MWAS%20Beauty%20Parlour%2C%20I%27d%20like%20to%20make%20an%20appointment." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
   <header class="header">
-    <a class="logo" href="#home" aria-label="MWAS Beauty Parlour"><img src="mwas-logo.png" alt="MWAS Beauty Parlour logo"></a>
-    <button class="menu" aria-label="Open menu">☰</button>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#booking">Book</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="MWAS Beauty Parlour home">
+        <img src="assets/mwas-logo.png" alt="MWAS Beauty Parlour Nakuru logo">
+      </a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+      <nav class="nav" id="nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#booking">Book Appointment</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="home" class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">NAKURU'S BEAUTY DESTINATION</p>
-        <h1>Beauty that makes<br><em>you feel unforgettable.</em></h1>
-        <p class="hero-text">Face glams, beautiful nails, beauty care and barber services — all in one stylish space.</p>
-        <div class="buttons">
-          <a class="btn primary" href="#booking">Book an Appointment</a>
-          <a class="btn ghost" href="https://wa.me/254700859216?text=Hello%20MWAS%20BEAUTY%20PARLOUR,%20I%27d%20like%20to%20make%20an%20appointment." target="_blank" rel="noopener">WhatsApp Us</a>
+    <section class="hero" id="home">
+      <div class="hero-shape shape-one"></div>
+      <div class="hero-shape shape-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">MWAS BEAUTY PARLOUR • NAKURU</p>
+          <h1>Be Bold.<br><span>Be Beautiful.</span><br>Be You.</h1>
+          <p class="hero-text">Your beauty is our passion. Discover beautiful nails, hair, makeup and personal-care experiences designed to leave you feeling confident and refreshed.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#booking">Book an Appointment <span>→</span></a>
+            <a class="btn btn-outline" href="#services">Explore Services</a>
+          </div>
+          <div class="hero-note">
+            <span class="dot"></span>
+            <strong>“She’s the baddest when it comes to face glams.”</strong>
+          </div>
         </div>
-        <div class="hero-note"><span>✦</span> She's the baddest when it comes to face glams.</div>
-      </div>
-      <div class="hero-card">
-        <div class="card-circle">MW</div>
-        <p>BEAUTY<br><strong>NAILS</strong><br>BARBER</p>
-      </div>
-    </section>
-
-    <section class="intro">
-      <p class="eyebrow">WELCOME TO MWAS</p>
-      <h2>Your glow. Your style.<br><em>Your moment.</em></h2>
-      <p>Step into a beauty experience designed to leave you looking polished, confident and ready for anything.</p>
-    </section>
-
-    <section id="services" class="section">
-      <div class="section-heading">
-        <div><p class="eyebrow">WHAT WE DO</p><h2>Our Services</h2></div>
-        <p>Prices are available on request. Contact us for the latest service menu and offers.</p>
-      </div>
-      <div class="service-grid">
-        <article class="service"><div class="icon">✦</div><h3>Face Glam</h3><p>Professional makeup and face glam looks for everyday beauty and special occasions.</p><span>Price on request</span></article>
-        <article class="service"><div class="icon">♡</div><h3>Nail Care</h3><p>Beautiful, neat and stylish nail treatments to complete your look.</p><span>Price on request</span></article>
-        <article class="service"><div class="icon">✧</div><h3>Beauty Care</h3><p>Personal beauty and cosmetic care tailored to help you look and feel your best.</p><span>Price on request</span></article>
-        <article class="service"><div class="icon">⌁</div><h3>Barber Services</h3><p>Clean, stylish grooming and barber services for a fresh finish.</p><span>Price on request</span></article>
-      </div>
-    </section>
-
-    <section id="gallery" class="section gallery-section">
-      <div class="section-heading centered">
-        <p class="eyebrow">THE MWAS LOOK</p>
-        <h2>Beauty in every detail</h2>
-        <p>Replace these placeholders with your own salon photos when ready.</p>
-      </div>
-      <div class="gallery">
-        <div class="gallery-item tall"><div>YOUR<br>BEAUTY<br>PHOTO</div></div>
-        <div class="gallery-item"><div>NAILS<br>PHOTO</div></div>
-        <div class="gallery-item"><div>GLAM<br>PHOTO</div></div>
-        <div class="gallery-item wide"><div>MWAS<br>BEAUTY PARLOUR</div></div>
-      </div>
-    </section>
-
-    <section id="booking" class="booking">
-      <div>
-        <p class="eyebrow">RESERVE YOUR TIME</p>
-        <h2>Book your<br><em>beauty moment.</em></h2>
-        <p>Fill in the form and your request will open directly in WhatsApp so we can confirm your appointment.</p>
-        <div class="booking-info"><strong>Opening from 8:00 AM</strong><br>Mosque Road, Nakuru · Opp. Shemeji Hotel</div>
-      </div>
-      <form id="bookingForm">
-        <label>Name<input id="name" required placeholder="Your name"></label>
-        <label>Phone<input id="phone" required placeholder="07XX XXX XXX"></label>
-        <label>Service
-          <select id="service" required>
-            <option value="">Select a service</option>
-            <option>Face Glam</option><option>Nail Care</option><option>Beauty Care</option><option>Barber Services</option><option>Other</option>
-          </select>
-        </label>
-        <div class="two">
-          <label>Date<input id="date" type="date" required></label>
-          <label>Time<input id="time" type="time" required></label>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="assets/nails-hero.jpg" alt="Beautiful nail art by MWAS Beauty Parlour">
+          </div>
+          <div class="floating-card">
+            <div class="sparkle">✦</div>
+            <div><strong>Beauty that speaks</strong><small>Premium care in Nakuru</small></div>
+          </div>
         </div>
-        <label>Message (optional)<textarea id="message" rows="3" placeholder="Any special request?"></textarea></label>
-        <button class="btn primary full" type="submit">Send Booking via WhatsApp</button>
-      </form>
-    </section>
-
-    <section class="testimonial">
-      <div class="quote">“</div>
-      <p>Beautiful nails, beautiful glam, beautiful you.</p>
-      <span>— MWAS BEAUTY PARLOUR</span>
-    </section>
-
-    <section id="contact" class="contact section">
-      <div>
-        <p class="eyebrow">COME SEE US</p>
-        <h2>Let's make you<br><em>feel fabulous.</em></h2>
       </div>
-      <div class="contact-grid">
-        <div><span>LOCATION</span><p>Mosque Road, Nakuru<br>Opp. Shemeji Hotel, Kenya</p></div>
-        <div><span>CALL / WHATSAPP</span><p><a href="tel:+254700859216">0700 859216</a><br><a href="https://wa.me/254700859216" target="_blank" rel="noopener">Chat on WhatsApp</a></p></div>
-        <div><span>OPENING</span><p>From 8:00 AM<br>Contact us to confirm closing time.</p></div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><strong>Beauty & Nails</strong><span>Creative styles & finishes</span></div>
+        <div><strong>Personal Care</strong><span>Relax, refresh & glow</span></div>
+        <div><strong>Professional Service</strong><span>Friendly beauty specialists</span></div>
+        <div><strong>Nakuru</strong><span>Conveniently located for you</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-images">
+          <img class="about-main" src="assets/salon-interior-1.jpg" alt="MWAS Beauty Parlour interior">
+          <img class="about-small" src="assets/nails-design-2.jpg" alt="Nail design at MWAS Beauty Parlour">
+          <div class="experience-badge"><strong>MWAS</strong><span>Your beauty, our passion.</span></div>
+        </div>
+        <div class="section-copy">
+          <p class="eyebrow">ABOUT MWAS</p>
+          <h2>Where beauty meets <span>confidence.</span></h2>
+          <p>MWAS Beauty Parlour is a beauty and personal-care destination in Nakuru, offering a welcoming space for clients who love looking and feeling their best.</p>
+          <p>From statement nail art and beauty treatments to hair, makeup and barbering, our goal is simple: quality service, attention to detail and a beautiful experience every time you visit.</p>
+          <div class="check-list">
+            <div>✓ Quality beauty services</div>
+            <div>✓ Stylish nail artistry</div>
+            <div>✓ Friendly professional care</div>
+            <div>✓ A welcoming salon experience</div>
+          </div>
+          <a class="text-link" href="#booking">Make an appointment <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">WHAT WE OFFER</p>
+          <h2>Our Beauty <span>Services</span></h2>
+          <p>Explore our range of beauty, personal-care and grooming services.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">💅</div><h3>Nails</h3>
+            <p>Manicures, pedicures, extensions and creative nail art for every occasion.</p>
+            <a href="#booking" data-service="Nails">Book service →</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">💇‍♀️</div><h3>Hair & Styling</h3>
+            <p>Hair care, styling and finishing designed to complement your personal look.</p>
+            <a href="#booking" data-service="Hair & Styling">Book service →</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">💄</div><h3>Makeup & Glam</h3>
+            <p>Face glam and makeup services for events, photoshoots and special moments.</p>
+            <a href="#booking" data-service="Makeup & Glam">Book service →</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">✨</div><h3>Beauty Treatments</h3>
+            <p>Beauty and personal-care treatments that help you relax, refresh and glow.</p>
+            <a href="#booking" data-service="Beauty Treatments">Book service →</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">🧴</div><h3>Cosmetics & Care</h3>
+            <p>Beauty and cosmetic care to help you maintain your look between appointments.</p>
+            <a href="#booking" data-service="Cosmetics & Care">Enquire →</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">✂️</div><h3>Barbering</h3>
+            <p>Neat grooming and barbering services for clients who want a polished finish.</p>
+            <a href="#booking" data-service="Barbering">Book service →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section showcase">
+      <div class="container showcase-grid">
+        <div class="showcase-copy">
+          <p class="eyebrow">THE MWAS EXPERIENCE</p>
+          <h2>Beautiful details.<br><span>Beautiful results.</span></h2>
+          <p>We believe every appointment should be an opportunity to express your style. Take a look at some of the work and moments from MWAS Beauty Parlour.</p>
+          <a class="btn btn-primary" href="#gallery">View Our Gallery</a>
+        </div>
+        <div class="showcase-collage">
+          <img src="assets/makeup-service.jpg" alt="Makeup service at MWAS Beauty Parlour">
+          <img src="assets/facial-service.jpg" alt="Beauty treatment at MWAS Beauty Parlour">
+          <img src="assets/haircut-service.jpg" alt="Barbering service at MWAS Beauty Parlour">
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">OUR WORK</p>
+          <h2>MWAS <span>Gallery</span></h2>
+          <p>Real work and real moments from our Nakuru salon.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item tall" data-full="assets/nails-hero.jpg"><img src="assets/nails-hero.jpg" alt="MWAS nail art"><span>View</span></button>
+          <button class="gallery-item" data-full="assets/nails-art.jpg"><img src="assets/nails-art.jpg" alt="MWAS nail design"><span>View</span></button>
+          <button class="gallery-item" data-full="assets/salon-interior-1.jpg"><img src="assets/salon-interior-1.jpg" alt="MWAS salon interior"><span>View</span></button>
+          <button class="gallery-item" data-full="assets/nails-design-2.jpg"><img src="assets/nails-design-2.jpg" alt="Creative nail art"><span>View</span></button>
+          <button class="gallery-item" data-full="assets/salon-interior-2.jpg"><img src="assets/salon-interior-2.jpg" alt="MWAS beauty team at work"><span>View</span></button>
+          <button class="gallery-item tall" data-full="assets/beauty-treatment.jpg"><img src="assets/beauty-treatment.jpg" alt="Beauty treatment"><span>View</span></button>
+          <button class="gallery-item" data-full="assets/makeup-service.jpg"><img src="assets/makeup-service.jpg" alt="Makeup service"><span>View</span></button>
+          <button class="gallery-item" data-full="assets/haircut-service.jpg"><img src="assets/haircut-service.jpg" alt="Haircut and styling"><span>View</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="container booking-grid">
+        <div>
+          <p class="eyebrow">BOOK YOUR VISIT</p>
+          <h2>Ready for your <span>glow-up?</span></h2>
+          <p>Send us your preferred service and appointment details. Your request will open directly in WhatsApp for quick communication.</p>
+          <div class="contact-mini">
+            <div><b>📍 Location</b><span>Mosque Road, Nakuru, opposite Shemeji Hotel</span></div>
+            <div><b>📞 Phone / WhatsApp</b><span>0700 859216</span></div>
+            <div><b>🕐 Opening</b><span>From 8:00 AM</span></div>
+          </div>
+        </div>
+        <form class="booking-form" id="bookingForm">
+          <div class="form-row">
+            <label>Full Name<input id="name" required placeholder="Your name"></label>
+            <label>Phone Number<input id="phone" required placeholder="07xx xxx xxx"></label>
+          </div>
+          <div class="form-row">
+            <label>Service
+              <select id="service">
+                <option>Nails</option><option>Hair & Styling</option><option>Makeup & Glam</option>
+                <option>Beauty Treatments</option><option>Cosmetics & Care</option><option>Barbering</option>
+              </select>
+            </label>
+            <label>Preferred Date<input id="date" type="date" required></label>
+          </div>
+          <label>Message / Preferred Time<textarea id="message" rows="4" placeholder="Tell us anything else we should know..."></textarea></label>
+          <button class="btn btn-primary full" type="submit">Send Booking via WhatsApp <span>→</span></button>
+        </form>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div><p class="eyebrow">YOUR BEAUTY, YOUR STYLE</p><h2>Come in. <span>Glow out.</span></h2></div>
+        <a class="btn btn-light" href="https://wa.me/254700859216?text=Hello%20MWAS%20Beauty%20Parlour%2C%20I%27d%20like%20to%20make%20an%20appointment." target="_blank" rel="noopener">Chat on WhatsApp →</a>
       </div>
     </section>
   </main>
 
-  <footer><div class="logo"><img src="mwas-logo.png" alt="MWAS Beauty Parlour logo"></div><p>© 2026 MWAS BEAUTY PARLOUR · Nakuru, Kenya</p></footer>
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/mwas-logo.png" alt="MWAS Beauty Parlour">
+        <p>Beauty, personal care and grooming in Nakuru. Come experience the MWAS touch.</p>
+      </div>
+      <div><h3>Quick Links</h3><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#booking">Book Appointment</a></div>
+      <div><h3>Contact</h3><p>Mosque Road, Nakuru<br>Opposite Shemeji Hotel</p><a href="tel:+254700859216">0700 859216</a><a href="https://wa.me/254700859216" target="_blank" rel="noopener">WhatsApp Us</a></div>
+      <div><h3>Follow</h3><p>Follow MWAS Beauty Parlour for new looks, offers and updates.</p><div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="TikTok">♪</a></div></div>
+    </div>
+    <div class="copyright"><div class="container">© <span id="year"></span> MWAS Beauty Parlour Nakuru. All rights reserved.</div></div>
+  </footer>
 
-  <a class="float-wa" href="https://wa.me/254700859216?text=Hello%20MWAS%20BEAUTY%20PARLOUR" target="_blank" rel="noopener" aria-label="WhatsApp">☏</a>
+  <a class="whatsapp-float" href="https://wa.me/254700859216?text=Hello%20MWAS%20Beauty%20Parlour%2C%20I%27d%20like%20to%20make%20an%20appointment." target="_blank" rel="noopener" aria-label="Chat with MWAS on WhatsApp">☏</a>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" aria-label="Close image">×</button>
+    <img id="lightboxImg" src="" alt="">
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
